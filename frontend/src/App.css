@@ -1,0 +1,137 @@
+/* Estilos gerais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+.app-header {
+  background-color: #075e54;
+  color: white;
+  padding: 15px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Container de chat */
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #e5ddd5;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilo das mensagens */
+.mensagem {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.mensagem.usuario {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+  border-radius: 8px 0 8px 8px;
+}
+
+.mensagem.assistente {
+  align-self: flex-start;
+  background-color: white;
+  border-radius: 0 8px 8px 8px;
+}
+
+.mensagem-conteudo {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.mensagem-timestamp {
+  font-size: 0.7rem;
+  color: #999;
+  text-align: right;
+}
+
+/* Indicador de digitação */
+.digitando {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.digitando::after {
+  content: "...";
+  animation: digitando 1.5s infinite;
+}
+
+@keyframes digitando {
+  0% { content: "."; }
+  33% { content: ".."; }
+  66% { content: "..."; }
+}
+
+/* Formulário de envio */
+.form-envio {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.form-envio input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.form-envio button {
+  background-color: #075e54;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.form-envio button:hover {
+  background-color: #128c7e;
+}
+
+.form-envio button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+} 

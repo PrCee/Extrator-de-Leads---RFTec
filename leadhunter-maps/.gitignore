@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+
+# Arquivos de build
+dist/
+
+# Arquivos de ambiente
+.env
+
+# Banco de dados
+data/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos de cache
+*.cache
+__pycache__/
+*.pyc 

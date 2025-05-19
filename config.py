@@ -2,8 +2,17 @@
 Configurações do extrator de leads
 """
 
+import os
+from dotenv import load_dotenv
+
+# Carrega variáveis de ambiente
+load_dotenv()
+
 # Limite diário de leads por nicho
 LIMITE_DIARIO = 50
+
+# Chave da API do Google Maps
+GOOGLE_MAPS_API_KEY = os.getenv('GOOGLE_MAPS_API_KEY')
 
 # Nichos de mercado e suas configurações
 NICHOS = {

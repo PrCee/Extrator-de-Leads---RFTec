@@ -1,0 +1,57 @@
+2025/04/25-11:18:31.314 2354 Reusing MANIFEST C:\Users\SUPORTE\Desktop\Teste01\vendedor-proativo-whatsapp-master\tokens\lead-manager\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/25-11:18:31.316 2354 Recovering log #547
+2025/04/25-11:18:31.668 2354 Reusing old log C:\Users\SUPORTE\Desktop\Teste01\vendedor-proativo-whatsapp-master\tokens\lead-manager\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000547.log 
+2025/04/25-11:18:32.466 25f0 Level-0 table #558: started
+2025/04/25-11:18:32.809 25f0 Level-0 table #558: 935565 bytes OK
+2025/04/25-11:18:32.873 25f0 Delete type=0 #547
+2025/04/25-11:18:32.921 2354 Manual compaction at level-0 from '\x00C\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at '\x00C\x00\x00\x05' @ 2000929 : 1
+2025/04/25-11:18:32.943 2354 Compacting 1@0 + 0@1 files
+2025/04/25-11:18:33.057 2354 Generated table #559@0: 19212 keys, 233956 bytes
+2025/04/25-11:18:33.140 2354 Generated table #560@0: 10861 keys, 307086 bytes
+2025/04/25-11:18:33.140 2354 Compacted 1@0 + 0@1 files => 541042 bytes
+2025/04/25-11:18:33.164 2354 compacted to: files[ 0 2 18 0 0 0 0 ]
+2025/04/25-11:18:33.165 2354 Delete type=2 #558
+2025/04/25-11:18:33.166 2354 Manual compaction at level-0 from '\x00C\x00\x00\x05' @ 2000929 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/25-11:18:35.536 310c Compacting 1@1 + 3@2 files
+2025/04/25-11:18:35.818 310c Generated table #561@1: 46609 keys, 2219374 bytes
+2025/04/25-11:18:36.196 310c Generated table #562@1: 33606 keys, 2190779 bytes
+2025/04/25-11:18:36.263 310c Generated table #563@1: 21 keys, 14746 bytes
+2025/04/25-11:18:36.263 310c Compacted 1@1 + 3@2 files => 4424899 bytes
+2025/04/25-11:18:36.295 310c compacted to: files[ 0 1 18 0 0 0 0 ]
+2025/04/25-11:18:36.296 310c Delete type=2 #546
+2025/04/25-11:18:36.296 310c Delete type=2 #551
+2025/04/25-11:18:36.296 310c Delete type=2 #552
+2025/04/25-11:18:36.296 310c Delete type=2 #559
+2025/04/25-11:18:37.686 310c Compacting 1@1 + 4@2 files
+2025/04/25-11:18:38.289 310c Generated table #564@1: 27242 keys, 2257541 bytes
+2025/04/25-11:18:38.617 310c Generated table #565@1: 52541 keys, 2205373 bytes
+2025/04/25-11:18:39.358 310c Generated table #566@1: 97745 keys, 2248580 bytes
+2025/04/25-11:18:39.486 310c Generated table #567@1: 43735 keys, 977650 bytes
+2025/04/25-11:18:39.487 310c Compacted 1@1 + 4@2 files => 7689144 bytes
+2025/04/25-11:18:39.536 310c compacted to: files[ 0 0 18 0 0 0 0 ]
+2025/04/25-11:19:14.117 310c Level-0 table #569: started
+2025/04/25-11:19:14.196 310c Level-0 table #569: 1104536 bytes OK
+2025/04/25-11:19:14.221 310c Delete type=2 #540
+2025/04/25-11:19:14.221 310c Delete type=2 #553
+2025/04/25-11:19:14.221 310c Delete type=2 #554
+2025/04/25-11:19:14.221 310c Delete type=2 #555
+2025/04/25-11:19:14.221 310c Delete type=0 #557
+2025/04/25-11:19:14.221 310c Delete type=2 #560
+2025/04/25-11:19:15.133 25f0 Compacting 1@0 + 0@1 files
+2025/04/25-11:19:15.247 25f0 Generated table #570@0: 22337 keys, 256555 bytes
+2025/04/25-11:19:15.307 25f0 Generated table #571@0: 13888 keys, 389084 bytes
+2025/04/25-11:19:15.307 25f0 Compacted 1@0 + 0@1 files => 645639 bytes
+2025/04/25-11:19:15.349 25f0 compacted to: files[ 0 2 18 0 0 0 0 ]
+2025/04/25-11:19:15.397 25f0 Delete type=2 #569
+2025/04/25-11:19:16.256 25f0 Compacting 1@1 + 4@2 files
+2025/04/25-11:19:16.445 25f0 Generated table #572@1: 27245 keys, 2258094 bytes
+2025/04/25-11:19:16.686 25f0 Generated table #573@1: 52541 keys, 2205378 bytes
+2025/04/25-11:19:16.923 25f0 Generated table #574@1: 94004 keys, 2244343 bytes
+2025/04/25-11:19:17.385 25f0 Generated table #575@1: 61284 keys, 1355578 bytes
+2025/04/25-11:19:17.385 25f0 Compacted 1@1 + 4@2 files => 8063393 bytes
+2025/04/25-11:19:17.409 25f0 compacted to: files[ 0 1 18 0 0 0 0 ]
+2025/04/25-11:19:17.410 25f0 Delete type=2 #564
+2025/04/25-11:19:17.411 25f0 Delete type=2 #565
+2025/04/25-11:19:17.411 25f0 Delete type=2 #566
+2025/04/25-11:19:17.411 25f0 Delete type=2 #567
+2025/04/25-11:19:17.412 25f0 Delete type=2 #571

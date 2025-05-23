@@ -1,4 +1,4 @@
-# Extrator de Leads
+# Extrator de Leads - RFTec
 
 Este projeto é um sistema completo de extração e enriquecimento de leads, com uma interface web moderna e integração com múltiplas fontes de dados.
 
@@ -10,6 +10,7 @@ Este projeto é um sistema completo de extração e enriquecimento de leads, com
 - Verificação de números de WhatsApp
 - Geração de arquivos CSV com os leads encontrados
 - Limite diário configurável de leads processados
+- Simulação de comportamento humano para evitar bloqueios
 
 ### Enriquecimento de Dados
 - Integração com LinkedIn para dados de funcionários
@@ -38,9 +39,21 @@ Este projeto é um sistema completo de extração e enriquecimento de leads, com
 - Shadcn/ui
 - TypeScript
 
+## Requisitos
+
+- Python 3.8+
+- Chrome Browser instalado
+- Conexão com internet
+- Node.js 16+ (para o frontend)
+
 ## Instalação
 
-1. Clone o repositório
+1. Clone o repositório:
+```bash
+git clone https://github.com/PrCee/Extrator-de-Leads---RFTec.git
+cd Extrator-de-Leads---RFTec
+```
+
 2. Configure as variáveis de ambiente:
 ```bash
 # .env
@@ -63,19 +76,43 @@ npm install
 
 ## Uso
 
-1. Inicie o backend:
+1. Configure as áreas e nichos no arquivo `config.py`
+
+2. Inicie o backend:
 ```bash
 cd backend
 poetry run python main.py
 ```
 
-2. Inicie o frontend:
+3. Inicie o frontend:
 ```bash
 cd frontend
 npm run dev
 ```
 
-3. Acesse a interface web em `http://localhost:3000`
+4. Acesse a interface web em `http://localhost:3000`
+
+## Estrutura do Projeto
+
+```
+.
+├── README.md
+├── requirements.txt
+├── config.py
+├── main.py
+├── backend/
+│   ├── main.py
+│   └── api/
+├── frontend/
+│   ├── app/
+│   └── components/
+├── src/
+│   ├── __init__.py
+│   ├── extrator.py
+│   └── utils.py
+└── leads/
+    └── (arquivos CSV gerados)
+```
 
 ## Roadmap de Desenvolvimento
 

@@ -256,10 +256,7 @@ class LeadExtrator:
         """Verifica se o número tem WhatsApp"""
         if not telefone:
             return False
-            
-        # Remove caracteres não numéricos
-        telefone = ''.join(filter(str.isdigit, telefone))
-        
+
         # Verifica se tem 11 dígitos (com DDD) ou 13 dígitos (com código do país)
         return len(telefone) in [11, 13]
 
@@ -319,4 +316,4 @@ if __name__ == "__main__":
                 extrator.gerar_csv(nicho, '', leads)
             time.sleep(2)  # Pausa entre nichos
     finally:
-        extrator.fechar() 
+        extrator.fechar()

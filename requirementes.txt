@@ -1,0 +1,5 @@
+selenium==4.18.1
+webdriver-manager==4.0.1
+pandas==2.2.1
+python-dotenv==1.0.1
+fake-useragent==1.4.0

@@ -7,4 +7,5 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 python-dotenv==1.0.0
 tqdm==4.66.1
-colorama==0.4.6 
+colorama==0.4.6
+googlemaps>=4.4.0
